@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@300;400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Nurse</title>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="container">
+            <a class="logo" href="../index.html">Re3aya</a>
+            <ul class="main-nav">
+                <li class="active3"><a href="#nurse">Nurse Request</a></li>
+                <li class="active"><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="nurse" id="nurse">
+        <div class="container">
+            <div class="manage-profile-data">
+
+                <p class="form-header">Request Home Nursing Now</p>
+
+                <form class="edit-data-form" action="#">
+
+
+                    <div class="field-container">
+                        <label class="label" for="user-name">Your Name <span class="required">*</span></label>
+                        <input class="input-field" type="text" id="user-name" required>
+                    </div>
+
+                    <div class="field-container">
+                        <label class="label" for="mobile-number">Mobile Number <span class="required">*</span></label>
+                        <input class="input-field" type="tel" id="mobile-number" required>
+                    </div>
+
+                    <div class="field-container">
+                        <label class="label" for="email">Email Address <span class="required">*</span></label>
+                        <input class="input-field" type="email" id="email" required>
+                    </div>
+
+                    <div class="field-container">
+                        <label class="label" for="area">Required service</label>
+                        <select class="input-field area" name="area" id="area">
+                            <option value="Corona">Corona and epidemic care</option>
+                            <option value="Express">Express Services</option>
+                            <option value="Elderly">Elderly care</option>
+                            <option value="baby">baby care</option>
+                            <option value="natural">natural therapy</option>
+                        </select>
+                    </div>
+                    <div class="field-container">
+                        <label class="label" for="need">Needs</label>
+                        <textarea id="need" class="input-field" name=" note"></textarea>
+                    </div>
+
+                    <div class="btns-container">
+                        <div class="btns">
+                            <button type="submit" class="btn save">Send</button>
+                            <button type="reset" class="btn cancel">Reset</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+                <h3>Re3aya</h3>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text">Healthcare for you</p>
+            </div>
+            <div class="box">
+                <ul class="links">
+                    <li><a href="#nurse">Request home nursing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Egypt, Cairo, Giza</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: 24 hours</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>01157082417</span>
+                        <span>01157082417</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/index.js"></script>
+</body>
+
+</html>
